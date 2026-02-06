@@ -1,0 +1,25 @@
+/* 
+  Global styles for Citi CableWorld. 
+  Tailwind core is handled via the CDN script in index.html.
+*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  background-color: #f8fafc; /* bg-gray-50 */
+  color: #0f172a; /* text-slate-900 */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.custom-shadow {
+  box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.05);
+}
+
+/* Add any specific manual overrides here */
+::selection {
+  background-color: #10b981;
+  color: white;
+}
