@@ -58,11 +58,7 @@ const App = () => {
         initialPlanId={selectedPlanId}
       />
 
-      {/* Brand Badge - Responsive Visibility */}
-      <div className="hidden sm:flex fixed bottom-4 right-4 z-50 bg-slate-900/90 backdrop-blur text-white px-4 py-2 rounded-full text-[10px] font-black uppercase tracking-widest items-center gap-2 shadow-2xl border border-white/10">
-        <div className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></div>
-        Citi CableWorld
-      </div>
+      
     </div>
   );
 };
