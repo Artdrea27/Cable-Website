@@ -100,31 +100,34 @@ export const Contact = () => {
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div className="text-center mb-16">
-        <h2 className="text-4xl md:text-5xl font-extrabold text-slate-900 mb-10 tracking-tight">
-          Branches
+      <div className="text-center mb-10 md:mb-16">
+        <h2 className="text-3xl md:text-5xl font-extrabold text-slate-900 mb-6 md:mb-10 tracking-tight">
+          Our Branches
         </h2>
       {/* Branch Selector Tabs */}
-      <div className="flex justify-center mb-12">
-        <div className="inline-flex p-1 bg-white rounded-2xl border border-gray-100 shadow-sm">
-          {BRANCHES.map((branch) => (
-            <button
-              key={branch.id}
-              onClick={() => setActiveBranch(branch)}
-              className={`px-6 py-2 rounded-xl text-sm font-bold transition-all ${
-                activeBranch.id === branch.id
-                  ? 'bg-emerald-600 text-white shadow-md'
-                  : 'text-slate-500 hover:text-emerald-600'
-              }`}
-            >
-              {branch.name}
-            </button>
-          ))}
+      <div className="flex flex-col items-center gap-3">
+          <div className="w-full flex justify-center">
+            <div className="inline-flex flex-nowrap md:flex-wrap gap-2 p-1.5 bg-white border border-gray-100 rounded-2xl md:rounded-full shadow-sm max-w-full overflow-x-auto scrollbar-hide">
+              {BRANCHES.map((branch) => (
+                <button
+                  key={branch.id}
+                  onClick={() => setActiveBranch(branch)}
+                  className={`whitespace-nowrap px-4 md:px-6 py-2 md:py-2.5 rounded-xl md:rounded-full text-xs md:text-sm font-bold transition-all duration-300 ${
+                    activeBranch === branch
+                      ? 'bg-[#059669] text-white shadow-md' 
+                      : 'text-slate-500 hover:text-emerald-600 hover:bg-emerald-50'
+                  }`}
+                >
+                  {branch.name}
+                </button>
+              ))}
+            </div>
+          </div>
+          <p className="md:hidden text-[10px] text-slate-400 font-bold uppercase tracking-widest animate-pulse">Swipe for more →</p>
         </div>
       </div>
-      </div>
 
-      <div className="grid lg:grid-cols-2 gap-12 items-start">
+      <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.2fr] gap-8 md:gap-12 items-start mb-16">
         {/* Left Column: Contact Information */}
         <div className="space-y-8 bg-white p-8 md:p-10 rounded-[32px] border border-emerald-50 shadow-sm">
           <h2 className="text-3xl font-extrabold text-[#047857] mb-8">Contact Information</h2>
@@ -191,7 +194,7 @@ export const Contact = () => {
 
         {/* Right Column: Inquiry Form */}
         <div className="bg-white p-8 md:p-10 rounded-[32px] border border-gray-100 shadow-sm">
-          <h2 className="text-3xl font-extrabold text-[#047857] mb-8">Send Us a Message</h2>
+          <h2 className="text-3xl font-extrabold text-[#047857] mb-8">Inquire Now</h2>
           
           <form className="space-y-6" onSubmit={handleSendMessage}>
             <div className="grid md:grid-cols-2 gap-6">

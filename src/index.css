@@ -1,24 +1,75 @@
 /* 
-  Global styles for Citi CableWorld. 
-  Tailwind core is handled via the CDN script in index.html.
+  Global styles for Citi CableWorld.
+  Tailwind core is handled via the build process (PostCSS, Vite, Webpack, etc.)
 */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* ==========================
+   Base / Global Styles
+========================== */
 body {
   margin: 0;
   background-color: #f8fafc; /* bg-gray-50 */
   color: #0f172a; /* text-slate-900 */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  @apply font-sans overflow-x-hidden;
 }
 
+/* Fix for navigation overlapping sections */
+section[id] {
+  scroll-margin-top: 5rem;
+}
+
+/* Headings */
+h1, h2, h3 {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+/* ==========================
+   Custom Components
+========================== */
 .custom-shadow {
   box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.05);
 }
 
-/* Add any specific manual overrides here */
+.gradient-text {
+  @apply text-transparent bg-clip-text bg-gradient-to-br from-emerald-600 to-emerald-400;
+}
+
+.glass-card {
+  @apply bg-white/80 backdrop-blur-2xl border border-white/30;
+}
+
+/* ==========================
+   Custom Scrollbars
+========================== */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 10px;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* ==========================
+   Other Overrides
+========================== */
 ::selection {
   background-color: #10b981;
   color: white;
