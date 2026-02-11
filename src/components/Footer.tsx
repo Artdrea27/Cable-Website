@@ -58,6 +58,7 @@
                     G/F JC Bldg. Carreon St., Centro East, Santiago City
                   </p>
                   <p className="text-white font-bold text-sm">(078) 305-0018</p>
+                  <p className="text-white font-bold text-sm">0917-510-2899</p>
                 </div>
                 <div className="space-y-4">
                   <div className="flex items-center gap-2">
@@ -70,7 +71,7 @@
                   <p className="text-slate-400 text-sm leading-relaxed">
                     National Highway, Osmena, Cordon, Isabela
                   </p>
-                  <p className="text-white font-bold text-sm">(078) 376-0744</p>
+                  <p className="text-white font-bold text-sm">0917-704-2968</p>
                 </div>
                 <div className="space-y-4">
                   <div className="flex items-center gap-2">
@@ -109,7 +110,7 @@
                   <p className="text-slate-400 text-sm leading-relaxed">
                     Purok 2 Sadiri Street, Magsaysay, Saguday, Quirino
                   </p>
-                  <p className="text-white font-bold text-sm">(044) 411-0012</p>
+                  <p className="text-white font-bold text-sm">0977-803-2727</p>
                 </div>
                 <div className="space-y-4">
                   <div className="flex items-center gap-2">
@@ -122,7 +123,7 @@
                   <p className="text-slate-400 text-sm leading-relaxed">
                     Purok 6 Zamora, Cabarroguis, Quirino
                   </p>
-                  <p className="text-white font-bold text-sm">0917 504 2727</p>
+                  <p className="text-white font-bold text-sm">0917 504 2277</p>
                 </div>
                 <div className="space-y-4">
                   <div className="flex items-center gap-2">
