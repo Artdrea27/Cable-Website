@@ -105,7 +105,7 @@ export const Plans = ({ onSubscribe }: PlansProps) => {
                   className={`w-full py-4 rounded-xl md:rounded-2xl font-black text-sm md:text-lg transition-all shadow-md active:scale-95 ${
                   plan.id === 'plan-250' ? 'bg-emerald-600 text-white shadow-emerald-100' : 'bg-slate-900 text-white'
                 }`}>
-                  Get Started
+                  Select Plan
                 </button>
               </div>
             </div>
