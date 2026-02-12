@@ -37,10 +37,10 @@ const BRANCHES = [
   {
     id: 'sto.domingo',
     name: 'Sto. Domingo Branch',
-    address:'' ,
-    tel: '',
-    mobile: '',
-    mapUrl: "",
+    address:'#212 Quezon Street, Maestrang Kikay Dist., Talavera, Nueva Ecija, 3114' ,
+    tel: '(044) 411-0012',
+    mobile: '0917-888-1234',
+    mapUrl: "https://www.google.com/maps?q=212+Quezon+Street+Maestrang+Kikay+Talavera+Nueva+Ecija&output=embed",
   },
   {
     id: 'saguday',
