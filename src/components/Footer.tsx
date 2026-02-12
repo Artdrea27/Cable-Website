@@ -85,6 +85,7 @@
                     #212 Quezon Street, Maestrang Kikay Dist., Talavera, Nueva Ecija, 3114
                   </p>
                   <p className="text-white font-bold text-sm">(044) 411-0012</p>
+                  <p className="text-white font-bold text-sm">0917-888-1234</p>
                 </div>
                 <div className="space-y-4">
                   <div className="flex items-center gap-2">
@@ -134,9 +135,10 @@
                     <p className="text-emerald-400 font-black text-sm uppercase">Sto. Domingo Branch</p>
                   </div>
                   <p className="text-slate-400 text-sm leading-relaxed">
-                    Sto. Domingo, Nueva Ecija
+                    #212 Quezon Street, Maestrang Kikay Dist., Talavera, Nueva Ecija, 3114
                   </p>
-                  <p className="text-white font-bold text-sm"></p>
+                  <p className="text-white font-bold text-sm">(044) 411-0012</p>
+                  <p className="text-white font-bold text-sm">0917-888-1234</p>
                 </div>
               </div>
             </div>
