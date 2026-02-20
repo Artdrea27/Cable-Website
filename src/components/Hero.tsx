@@ -40,7 +40,7 @@ export const Hero = ({ onSubscribe }: HeroProps) => {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
                   </svg>
                 </div>
-                Up to 300 Mbps
+                Up to 500 Mbps
               </div>
               <div className="flex items-center gap-2 px-3 py-2 md:px-6 md:py-3.5 rounded-xl bg-white border border-slate-100 shadow-sm text-slate-800 text-[11px] md:text-[15px] font-black group transition-colors hover:border-emerald-200">
                 <div className="bg-emerald-50 p-1 rounded-lg text-emerald-600">
