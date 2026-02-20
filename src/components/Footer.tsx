@@ -96,7 +96,7 @@
                     <p className="text-emerald-400 font-black text-sm uppercase">Guimba Branch</p>
                   </div>
                   <p className="text-slate-400 text-sm leading-relaxed">
-                    MQ58+3RF, Guimba, Nueva Ecija
+                    Mik Paul's Building Faigal St. Sto. Cristo, Guimba, Nueva Ecija
                   </p>
                   <p className="text-white font-bold text-sm">(044) 958 2486</p>
                 </div>
