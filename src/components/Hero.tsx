@@ -83,7 +83,7 @@ export const Hero = ({ onSubscribe }: HeroProps) => {
             {/* Speed Badge - Repositioned for mobile */}
             <div className="absolute -bottom-4 -right-2 md:-bottom-6 md:-left-6 bg-slate-900 text-white px-6 py-3 md:px-8 md:py-4 rounded-2xl md:rounded-3xl shadow-2xl border border-white/10 scale-90 md:scale-100">
               <p className="text-[8px] md:text-[10px] font-black uppercase tracking-widest text-emerald-400">Top Speed</p>
-              <p className="text-xl md:text-3xl font-black">300 Mbps</p>
+              <p className="text-xl md:text-3xl font-black">500 Mbps</p>
             </div>
           </div>
 
