@@ -48,7 +48,7 @@ export const Hero = ({ onSubscribe }: HeroProps) => {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 10l4.553 2.276A1 1 0 0120 13.17V17a2 2 0 01-2 2h-2M9 5a2 2 0 114 0 2 2 0 01-4 0zM4 11h.01M4 15h.01M4 19h.01" />
                   </svg>
                 </div>
-                48+ IPTV Channels
+                70+ IPTV Channels
               </div>
             </div>
 

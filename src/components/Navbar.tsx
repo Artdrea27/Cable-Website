@@ -34,11 +34,11 @@ export const Navbar = ({ onSubscribe }: NavbarProps) => {
             onClick={(e) => handleNavClick(e, 'home')}
             className="flex items-center gap-3 cursor-pointer group"
           >
-            <div className="w-11 h-11 flex items-center justify-center border-2 border-emerald-600 rounded-full p-1 group-hover:scale-110 transition-transform">
-              <div className="w-full h-full border  rounded-full flex items-center justify-center bg-emerald-50/30">
+            <div className="w-11 h-11 flex items-center justify-center ">
+              <div className="w-full h-full border  rounded-full flex items-center justify-center bg-emerald-600">
                 <div className="w-full h-full rounded-full flex items-center justify-center overflow-hidden">
                   <img 
-                    src="assets/Logo.png" 
+                    src="assets/logo.jpeg" 
                     alt="Citi CableWorld" 
                     className="w-full h-full object-contain"
                     onError={(e) => {
