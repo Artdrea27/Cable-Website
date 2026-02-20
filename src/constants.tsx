@@ -31,7 +31,7 @@ export const PLANS: Plan[] = [
     speed: 'Up to 250 Mbps',
     price: '1,700',
     isInternetOnly: false,
-    features: ['Unlimited data', 'Free IPTV included', '48+ TV channels', 'HD streaming']
+    features: ['Unlimited data', 'Free IPTV included', '70+ TV channels', 'HD Streaming']
   },
   {
     id: 'plan-300',
@@ -39,7 +39,15 @@ export const PLANS: Plan[] = [
     speed: 'Up to 300 Mbps',
     price: '1,900',
     isInternetOnly: false,
-    features: ['Unlimited data', 'Free IPTV included', '48+ TV channels', '4K streaming']
+    features: ['Unlimited data', 'Free IPTV included', '70+ TV channels', '4K Streaming']
+  },
+  {
+    id: 'plan-500',
+    name: 'Ultimate Fiber + IPTV',
+    speed: 'Up to 500 Mbps',
+    price: '2,700',
+    isInternetOnly: false,
+    features: ['Unlimited data','Free IPTV included','70+ TV channels','4k Streaming']
   }
 ];
 

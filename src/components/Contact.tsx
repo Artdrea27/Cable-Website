@@ -29,7 +29,7 @@ const BRANCHES = [
   {
     id: 'guimba',
     name: 'Guimba Branch',
-    address:'MQ58+3RF, Guimba, Nueva Ecija' ,
+    address:'Mik Paul Building Faigal St. Sto Cristo, Guimba, Nueva Ecija' ,
     tel: '(044) 958 2486',
     mobile: '',
     mapUrl: "https://www.google.com/maps?q=Summit+Cable+Network+Cable+and+Fiber+Internet&output=embed",

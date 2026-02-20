@@ -145,7 +145,7 @@
           </div>
 
           <div className="pt-12 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-8">
-            <p className="text-slate-500 text-sm font-bold">© 2026 Citi CableWorld (TTI). All rights reserved.</p>
+            <p className="text-slate-500 text-sm font-bold">© 2015 Citi CableWorld (TTI). All rights reserved.</p>
             <div className="flex gap-10">
               <a href="#" className="text-slate-500 hover:text-white text-xs font-black uppercase tracking-widest transition-colors">Privacy</a>
               <a href="#" className="text-slate-500 hover:text-white text-xs font-black uppercase tracking-widest transition-colors">Terms</a>
