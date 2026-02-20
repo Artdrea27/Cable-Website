@@ -5,7 +5,7 @@ export const IPTV = () => {
     <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
       {/* Header */}
       <div className="text-center mb-8 md:mb-16 space-y-3 md:space-y-6">
-        <h2 className="text-3xl sm:text-5xl md:text-7xl font-extrabold text-[#0F172A] tracking-tight">48+ Premium Channels</h2>
+        <h2 className="text-3xl sm:text-5xl md:text-7xl font-extrabold text-[#0F172A] tracking-tight">70+ Premium Channels</h2>
         <p className="text-sm md:text-[17px] text-slate-500 max-w-4xl mx-auto leading-relaxed font-medium px-4">
           Enjoy crystal-clear HD streaming with our comprehensive IPTV package.
           Available with our Elite and Ultra fiber plans. 
