@@ -38,7 +38,6 @@
                 <li><a href="#coverage" className="text-slate-400 hover:text-emerald-400 font-bold transition-colors">Coverage</a></li>
                 <li><a href="#iptv" className="text-slate-400 hover:text-emerald-400 font-bold transition-colors">Channel Guide</a></li>
                 <li><a href="#contact" className="text-slate-400 hover:text-emerald-400 font-bold transition-colors">Support</a></li>
-                <li><a href="#" className="text-slate-400 hover:text-emerald-400 font-bold transition-colors">Pay Bill</a></li>
               </ul>
             </div>
 
@@ -57,8 +56,8 @@
                   <p className="text-slate-400 text-sm leading-relaxed">
                     G/F JC Bldg. Carreon St., Centro East, Santiago City
                   </p>
-                  <p className="text-white font-bold text-sm">(078) 305-0018</p>
-                  <p className="text-white font-bold text-sm">0917-510-2899</p>
+                  <p className="text-emerald-400 font-bold text-sm"> Tel:<p className="text-white">(078) 305-0018</p></p>
+                  <p className="text-emerald-400 font-bold text-sm">Mobile:<p className="text-white">0917-510-2899</p></p>
                 </div>
                 <div className="space-y-4">
                   <div className="flex items-center gap-2">
@@ -71,7 +70,7 @@
                   <p className="text-slate-400 text-sm leading-relaxed">
                     National Highway, Osmena, Cordon, Isabela
                   </p>
-                  <p className="text-white font-bold text-sm">0917-704-2968</p>
+                  <p className="text-emerald-400 font-bold text-sm">Mobile:<p className="text-white">0917-704-2968</p></p>
                 </div>
                 <div className="space-y-4">
                   <div className="flex items-center gap-2">
@@ -84,8 +83,8 @@
                   <p className="text-slate-400 text-sm leading-relaxed">
                     #212 Quezon Street, Maestrang Kikay Dist., Talavera, Nueva Ecija, 3114
                   </p>
-                  <p className="text-white font-bold text-sm">(044) 411-0012</p>
-                  <p className="text-white font-bold text-sm">0917-888-1234</p>
+                  <p className="text-emerald-400 font-bold text-sm">Tel: <p className="text-white">(044) 411-0012</p> </p>
+                  <p className="text-emerald-400 font-bold text-sm">Mobile: <p className="text-white">0917-888-1234</p></p>
                 </div>
                 <div className="space-y-4">
                   <div className="flex items-center gap-2">
@@ -98,7 +97,8 @@
                   <p className="text-slate-400 text-sm leading-relaxed">
                     Mik Paul's Building Faigal St. Sto. Cristo, Guimba, Nueva Ecija
                   </p>
-                  <p className="text-white font-bold text-sm">(044) 958 2486</p>
+                  <p className="text-emerald-400 font-bold text-sm">Tel: <p className="text-white">(044) 958 2486</p></p>
+                  <p className="text-emerald-400 font-bold text-sm">Mobile: <p className="text-white">0997-881-7586 <br /> 0909-255-2489</p></p>
                 </div>
                 <div className="space-y-4">
                   <div className="flex items-center gap-2">
@@ -111,7 +111,7 @@
                   <p className="text-slate-400 text-sm leading-relaxed">
                     Purok 2 Sadiri Street, Magsaysay, Saguday, Quirino
                   </p>
-                  <p className="text-white font-bold text-sm">0977-803-2727</p>
+                  <p className="text-emerald-400 font-bold text-sm">Mobile: <p className="text-white">0977-803-2727</p></p>
                 </div>
                 <div className="space-y-4">
                   <div className="flex items-center gap-2">
@@ -124,7 +124,7 @@
                   <p className="text-slate-400 text-sm leading-relaxed">
                     Purok 6 Zamora, Cabarroguis, Quirino
                   </p>
-                  <p className="text-white font-bold text-sm">0917 504 2277</p>
+                  <p className="text-emerald-400 font-bold text-sm">Mobile: <p className="text-white">0917 504 2277</p></p>
                 </div>
                 <div className="space-y-4">
                   <div className="flex items-center gap-2">
@@ -137,8 +137,8 @@
                   <p className="text-slate-400 text-sm leading-relaxed">
                     #212 Quezon Street, Maestrang Kikay Dist., Talavera, Nueva Ecija, 3114
                   </p>
-                  <p className="text-white font-bold text-sm">(044) 411-0012</p>
-                  <p className="text-white font-bold text-sm">0917-888-1234</p>
+                  <p className="text-emerald-400 font-bold text-sm">Tel: <p className="text-white">(044) 411-0012</p></p>
+                  <p className="text-emerald-400 font-bold text-sm">Mobile: <p className="text-white">0917-888-1234</p></p>
                 </div>
               </div>
             </div>

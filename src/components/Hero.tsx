@@ -4,7 +4,7 @@ interface HeroProps {
 
 export const Hero = ({ onSubscribe }: HeroProps) => {
   return (
-    <div className="relative bg-white overflow-hidden pt-6 pb-12 md:pt-20 md:pb-36">
+    <div className="relative bg-gray-100 overflow-hidden pt-6 pb-12 md:pt-20 md:pb-36">
       {/* Background Subtle Gradient - Adjusted for mobile */}
       <div className="absolute top-0 right-0 w-full lg:w-[70%] h-full bg-gradient-to-br from-[#f0f9f6] to-white lg:-skew-x-12 transform origin-top-right -z-10 rounded-bl-[40px] md:rounded-bl-[200px]"></div>
       

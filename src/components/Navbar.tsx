@@ -25,7 +25,7 @@ export const Navbar = ({ onSubscribe }: NavbarProps) => {
   };
 
   return (
-    <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-100 shadow-sm">
+    <nav className="sticky top-0 z-50 bg-slate-900 backdrop-blur-md border-b border-emerald-400 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
@@ -49,8 +49,8 @@ export const Navbar = ({ onSubscribe }: NavbarProps) => {
               </div>
             </div>
             <div>
-              <h1 className="text-xl font-extrabold text-[#055b41] leading-tight tracking-tight">Citi CableWorld</h1>
-              <p className="text-[10px] text-slate-500 font-bold tracking-widest uppercase">FTTH • IPTV</p>
+              <h1 className="text-xl font-extrabold text-emerald-400 leading-tight tracking-tight">Citi CableWorld</h1>
+              <p className="text-[10px] text-white font-bold tracking-widest uppercase">FTTH • IPTV</p>
             </div>
           </a>
 
@@ -61,7 +61,7 @@ export const Navbar = ({ onSubscribe }: NavbarProps) => {
                 key={link.id}
                 href={`#${link.id}`}
                 onClick={(e) => handleNavClick(e, link.id)}
-                className="text-[15px] font-semibold text-slate-600 hover:text-emerald-600 transition-colors"
+                className="text-[15px] font-semibold text-white hover:text-emerald-600 transition-colors"
               >
                 {link.label}
               </a>
